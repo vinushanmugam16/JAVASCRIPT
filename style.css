@@ -1,0 +1,46 @@
+body{
+    background-color: lightgoldenrodyellow;
+    
+}
+h1{
+    color:brown;
+    font-size: xx-large;
+    text-align:center
+}
+figure{
+    margin:auto;
+    border :5px;
+    border-color: black;
+}
+figcaption{
+    padding:10px;
+    border:5px;
+    border-color: black;
+    background-color: olive;
+    width:200px;
+    /* height:200px; */ 
+        text-align: center;
+    margin-left: 170px;
+}
+.box{
+    background-color:burlywood;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border:2px solid;
+    padding:100px;
+    column-gap: 10px;
+    align-items: center;
+    
+}
+.item{
+    background-color: white;
+    border:2px solid;
+    padding: 50px;
+    text-align: center;
+    
+    
+}
+div~figcaption{
+    width: 250px;
+    padding: 50px;
+}
