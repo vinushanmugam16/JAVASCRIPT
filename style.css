@@ -1,14 +1,26 @@
+*{
+    margin:0%;
+    padding:0%;
+}
 body{
     background-color: lightgoldenrodyellow;
-    
+    height: 100vw;
+    width: 100vh;
+    overflow:hidden;
 }
 h1{
     color:brown;
     font-size: xx-large;
-    text-align:center
+    text-align:center;
+    padding:50px;
+}
+div{
+    margin:20px;
+    padding:20px;
+    border:5px solid;
 }
 figure{
-    margin:auto;
+    margin:20px;
     border :5px;
     border-color: black;
 }
@@ -16,31 +28,43 @@ figcaption{
     padding:10px;
     border:5px;
     border-color: black;
-    background-color: olive;
+    background-color:peru;
     width:200px;
     /* height:200px; */ 
-        text-align: center;
+    text-align: center;
     margin-left: 170px;
 }
-.box{
+/* .box{
     background-color:burlywood;
-    display: grid;
-    grid-template-columns: auto auto auto;
+    display: flex;
     border:2px solid;
-    padding:100px;
-    column-gap: 10px;
+    padding:50px;
     align-items: center;
-    
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin:150px;
 }
 .item{
-    background-color: white;
     border:2px solid;
     padding: 50px;
     text-align: center;
-    
-    
+    justify-content: center;
+    align-self:center;
+} */
+div~figcaption{                    /*general child combinator (~) */
+    align-self: center;
 }
-div~figcaption{
-    width: 250px;
-    padding: 50px;
+img:hover{
+    background-color: rgb(70, 68, 68);
+}
+form{
+    text-align: center;
+}
+a{
+    align-items: center;
+}
+button{
+    min-width:100px;
+    max-height:100px;
 }
