@@ -1,5 +1,5 @@
 const details={};
-details.height= '156cm';
+details.height= '154cm';
 details.city='Erode';
 details.bloodgrp='B+ve';
 details.nationality='Indian';
