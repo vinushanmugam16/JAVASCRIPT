@@ -3,7 +3,7 @@ console.log(str.at(5));
 
 console.log(str.charAt(9));
 
-console.log(str.charCodeAt(3));
+console.log(str.charCodeAt(4));
 
 console.log(str.concat(' Vinu'));
  console.log(str.endsWith('System'));

@@ -28,7 +28,7 @@ console.log("Her Name is "+ person.fName+person.lName+ ' and her age is '+ perso
 
 const student={
     name:{
-        fname:'Dev',
+        fname:'Deva',
         Lname:'Ashwin'
     },
     score:{

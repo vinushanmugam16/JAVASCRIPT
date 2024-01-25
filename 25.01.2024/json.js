@@ -28,5 +28,5 @@ console.log(result.count);
 const check= JSON.parse('{"x":13 , "y":4}',(key,value)=>value<=3 ? value*value : value);
 console.log(check);
 
-console.log(JSON.stringify({x:4,name:'vinu',y:3}));
+console.log(JSON.stringify({x:4,name:'vinu',y:13}));
 

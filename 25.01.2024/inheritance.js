@@ -14,7 +14,7 @@ class Operation extends Property{
         return num1*num2+num3;
     }
 }
-const object = new Operation(23,9,6);
+const object = new Operation(13,9,6);
 console.log(object.performOperations(23,9,61));
 
 
