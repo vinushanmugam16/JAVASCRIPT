@@ -41,7 +41,7 @@ console.log(student.score);
 
 
 const Employee={
-    employ_id: 168,
+    employ_id: 164,
     employ_name: 'Nick Thomas',
     Workstatus:'Work from office',
     employLocation:'Siruseri',

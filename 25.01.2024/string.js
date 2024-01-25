@@ -1,7 +1,7 @@
 const str='Welcome to Aspire System';
 console.log(str.at(3));
 
-console.log(str.charAt(8));
+console.log(str.charAt(9));
 
 console.log(str.charCodeAt(3));
 

@@ -1,10 +1,10 @@
 const odd=new Promise((resolve,reject)=>{
   let s=4;
   if(s%2!=0){
-    setTimeout(resolve,2000,'It is a odd num');
+    setTimeout(resolve,2000,'It is an odd num');
   }
   else{
-    setTimeout(reject,3000,'Not a odd num');
+    setTimeout(reject,3000,'Not an odd num');
   }
 })
 
