@@ -9,7 +9,7 @@ console.log(details);
 const Place=new Object();
 Place.city='Gobi';
 Place.District='Erode';
-Place.pincode=638476;
+Place.pincode= 638476;
 console.log(Place);
 
 

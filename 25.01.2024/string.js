@@ -11,7 +11,7 @@ console.log(str.concat(' Vinu'));
  console.log(str.indexOf('to'));
 
  const sent='The dog ran fast as cheetah. dog is an animal';
- console.log(sent.replace('dog','tiger'));
+ console.log(sent.replace('dog',' tiger'));
 
  console.log(sent.replaceAll('dog','cat'));
 

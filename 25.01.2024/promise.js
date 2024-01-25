@@ -12,7 +12,7 @@ async function myAsync(){
   try{
   const res=await odd;
   console.log(res);
-  console.log("Thank you!");
+  console.log("Thank  you!");
   }
   catch(error){
     console.log(error);

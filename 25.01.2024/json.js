@@ -20,7 +20,7 @@
 
 
 
-const person='{"records": "Records noted" ,"count":10000}'
+const person='{"records": "Records noted" ,"count ":10000}'
 const result=JSON.parse(person);
 console.log(result.records);           
 console.log(result.count);              
