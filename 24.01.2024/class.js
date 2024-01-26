@@ -33,7 +33,7 @@ class multiply{
         return a*b*c;
     }
 }
-const PerformMultiply=new multiply(3,6,9);
-console.log(PerformMultiply.makeMultiply(3,6,9));
+const PerformMultiply=new multiply(3,21,9);
+console.log(PerformMultiply.makeMultiply(3,21,9));
 
 

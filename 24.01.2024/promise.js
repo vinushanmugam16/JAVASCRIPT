@@ -25,7 +25,7 @@ const checking=new Promise((resolve,reject)=>{
 
 async function logging(){
     try{
-        const result=await checking;
+        const result= await checking;
         console.log(result);
         console.log("Thank you"); 
     }

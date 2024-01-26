@@ -9,7 +9,7 @@
 // // console.log(x);
 // function sum(){
    // let num =20
-//     num= num+20;          
+//     num= num+ 20;          
 //     return num;
 // }
 // console.log(sum());
@@ -32,7 +32,7 @@ function subtract(a,b){
     let sub= a-b;
     return sub;
 }
-const a= 30, b=8;
+const a= 32, b=8;
 console.log(subtract(a,b));
 
 

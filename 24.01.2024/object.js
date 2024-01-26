@@ -29,7 +29,7 @@ console.log("Her Name is " + person.fName+person.lName+ ' and her age is '+ pers
 const student={
     name:{
         fname:'Deva',
-        Lname:'Ashwin'
+        Lname: 'Ashwin'
     },
     score:{
         Subject:['Maths','Computer'] ,
@@ -42,7 +42,7 @@ console.log(student.score);
 
 const Employee={
     employ_id: 1641,
-    employ_name: 'Nick Thomas',
+    employ_name: 'Nick Thomaas',
     Workstatus:'Work from office',
     employLocation:'Siruseri',
     detail:function(){

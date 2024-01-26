@@ -1,4 +1,4 @@
-const name='Vinu';
+const name= 'Vinu';
 console.log(`Welcome to Aspire ${name}`);
 console.log("Welcome to aspire " + name);
 
@@ -7,7 +7,7 @@ console.log(numbers.filter((item)=>(item%2==0)));
 
 
 
-const person ='Paul';
+const person ='Paule';
 console.log('Hello ' + person);
 console.log('Hello '.concat(person));
 console.log(`Hello ${person}`);
