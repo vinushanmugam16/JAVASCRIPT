@@ -23,7 +23,7 @@ let x=person;
 x.age=22;
 // delete person.domain;
 // console.log(person);
-console.log("Her Name is "+ person.fName+person.lName+ ' and her age is '+ person.age + ' from '+ person.domain + ' domain. ');
+console.log("Her Name is " + person.fName+person.lName+ ' and her age is '+ person.age + ' from '+ person.domain + ' domain. ');
 
 
 const student={

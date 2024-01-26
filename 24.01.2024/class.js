@@ -18,7 +18,7 @@ class Details{
         return this.id;
     }
 }
-const Employee=new Details(1234);
+const Employee =new Details(1234);
 Employee.myfunc();
 console.log(Employee);
 

@@ -29,7 +29,7 @@ var number;
 
 
 function subtract(a,b){
-    let sub = a-b;
+    let sub= a-b;
     return sub;
 }
 const a= 30, b=8;

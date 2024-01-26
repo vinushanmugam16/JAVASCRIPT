@@ -14,7 +14,7 @@
 
 
 const checking=new Promise((resolve,reject)=>{
-    let user='vinu',pass='1234';
+    let user= 'vinu',pass='1234';
     if(user.length === pass.length){
         setTimeout(resolve,3000,'Lengths are matching!');
     }
